@@ -2,7 +2,7 @@ name: Send lark message daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 2 * * *"
 
 jobs:
   send-lark-message:
